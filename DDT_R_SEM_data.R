@@ -16,7 +16,7 @@
 # The final model was entirely unconstrained, and if this model is the best fit that would imply that there is a significant variance across the levels. This approach allowed us to fully examine all levels of both the N-Back and DDT tasks.
 
 #### Data and Intercorr Info ####
-SEMCABN_data<-read.csv(file = "~/Documents/PapersIP/BrainMAPD_EF_EEfRT_Nbk/Revision_Drafts/New_Analyses/R_SEM_data.csv", header = TRUE)
+SEMCABN_data<-read.csv(file = "/Users/damme/Desktop/PapersIP/BrainMAPD_EF_EEfRT_Nbk/Revision_Drafts/Revision2/New", header = TRUE)
 View(SEMCABN_data)
 library(psych)
 library(lavaan)
